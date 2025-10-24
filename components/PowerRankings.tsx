@@ -2,45 +2,31 @@ export default function PowerRankings() {
   const rankings = [
     {
       rank: 1,
-      team: "Puck Dynasty",
-      change: "up",
-      changeValue: "+2",
-      reason: "Dominant performance in recent scrimmages, excellent teamwork"
+      team: "Team 2",
+      change: "same",
+      changeValue: "±0",
+      reason: "First Free Agent signing of Joel Revo - by definition best in league history"
     },
     {
       rank: 2,
-      team: "The Crushers",
-      change: "down",
-      changeValue: "-1",
-      reason: "Lost key player to injury, struggling with defense"
+      team: "Team 1",
+      change: "same",
+      changeValue: "±0",
+      reason: "2nd in the rankings like how HCM is the 2nd best cohort at Wharton"
     },
     {
       rank: 3,
-      team: "Net Warriors",
-      change: "up",
-      changeValue: "+1",
-      reason: "Strong offensive showing, improved coordination"
+      team: "Team 3",
+      change: "same",
+      changeValue: "±0",
+      reason: "Herman is Canadian - counts for something"
     },
     {
       rank: 4,
-      team: "Goal Diggers",
+      team: "Team 4",
       change: "same",
       changeValue: "±0",
-      reason: "Consistent performance, solid all-around play"
-    },
-    {
-      rank: 5,
-      team: "Ice Breakers",
-      change: "down",
-      changeValue: "-2",
-      reason: "Attendance issues affecting team chemistry"
-    },
-    {
-      rank: 6,
-      team: "Stick Handlers",
-      change: "same",
-      changeValue: "±0",
-      reason: "Working on fundamentals, showing gradual improvement"
+      reason: "Stephen Kennefik is a wild card - still unknown if Capt Shruthi can keep him on track"
     }
   ]
 

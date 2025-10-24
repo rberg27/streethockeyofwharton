@@ -18,8 +18,8 @@ export default function Home() {
         }}>
           Street Hockey of Wharton
         </h1>
-        <p style={{ fontSize: '1.1rem', color: '#ccc' }}>
-          Official Playoff Season Hub
+        <p style={{ fontSize: '1.5rem', color: '#fff', fontFamily: '"Lucida Handwriting", cursive' }}>
+          Welcome to the SHOW!
         </p>
       </header>
 
@@ -30,16 +30,6 @@ export default function Home() {
         <TeamsList />
         <PowerRankings />
       </main>
-
-      <footer style={{
-        textAlign: 'center',
-        padding: '2rem',
-        marginTop: '2rem',
-        borderTop: '1px solid rgba(255, 255, 255, 0.1)',
-        color: '#666'
-      }}>
-        <p>Street Hockey of Wharton © 2025</p>
-      </footer>
     </div>
   )
 }

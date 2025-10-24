@@ -4,7 +4,7 @@ export default function PartifulLink() {
       <h2>Join the Party!</h2>
       <div style={{ textAlign: 'center' }}>
         <a
-          href="#"
+          href="https://partiful.com/e/eljhHV3tVfUweZ0sEcCN"
           className="partiful-link"
           target="_blank"
           rel="noopener noreferrer"

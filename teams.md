@@ -1,37 +1,23 @@
 # Street Hockey Teams
 
-## The Crushers
-- John Smith
-- Mike Johnson
-- Sarah Wilson
-- Alex Brown
+## Team 1
+**Hometown Bar:** Lucy's
+- Adam Sudit
+- Ananya Chandra
 
-## Ice Breakers
-- Emily Davis
-- Tom Anderson
-- Lisa Rodriguez
-- Chris Lee
 
-## Stick Handlers
-- David Miller
-- Jessica Taylor
-- Ryan Clark
-- Amanda White
+## Team 2
+**Hometown Bar:** Bonner's
+- Benji Flacks
+- Yash Bhatnagar
+- Joel Revo
 
-## Goal Diggers
-- Kevin Martinez
-- Rachel Green
-- Jason Hall
-- Nicole Thompson
+## Team 3
+**Hometown Bar:** Ladder 15
+- Herman Chandi
+- Alec Rosen
 
-## Puck Dynasty
-- Mark Williams
-- Lauren Adams
-- Steve Parker
-- Maya Patel
-
-## Net Warriors
-- Brandon Scott
-- Taylor King
-- Jordan Wright
-- Casey Brooks
+## Team 4
+**Hometown Bar:** Black Sheep
+- Shruthi Krishnan
+- Stephen Kennefick

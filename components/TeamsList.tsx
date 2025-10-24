@@ -3,8 +3,8 @@ import path from 'path'
 
 function parseMarkdownTeams(content: string) {
   const lines = content.split('\n')
-  const teams: { name: string; players: string[] }[] = []
-  let currentTeam: { name: string; players: string[] } | null = null
+  const teams: { name: string; bar?: string; players: string[] }[] = []
+  let currentTeam: { name: string; bar?: string; players: string[] } | null = null
 
   for (const line of lines) {
     if (line.startsWith('## ')) {
@@ -15,6 +15,8 @@ function parseMarkdownTeams(content: string) {
         name: line.replace('## ', ''),
         players: []
       }
+    } else if (line.startsWith('**Hometown Bar:**') && currentTeam) {
+      currentTeam.bar = line.replace('**Hometown Bar:**', '').trim()
     } else if (line.startsWith('- ') && currentTeam) {
       currentTeam.players.push(line.replace('- ', ''))
     }
@@ -28,7 +30,7 @@ function parseMarkdownTeams(content: string) {
 }
 
 export default function TeamsList() {
-  let teams: { name: string; players: string[] }[] = []
+  let teams: { name: string; bar?: string; players: string[] }[] = []
 
   try {
     const filePath = path.join(process.cwd(), 'teams.md')
@@ -40,8 +42,8 @@ export default function TeamsList() {
 
   return (
     <div className="section">
-      <h2>Teams & Players</h2>
-      <div style={{ display: 'grid', gap: '1rem', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))' }}>
+      <h2>Teams</h2>
+      <div style={{ display: 'grid', gap: '1rem', gridTemplateColumns: 'repeat(2, 1fr)' }}>
         {teams.map((team, index) => (
           <div key={index} style={{
             background: 'rgba(31, 63, 152, 0.3)',
@@ -49,9 +51,19 @@ export default function TeamsList() {
             borderRadius: '8px',
             borderLeft: '4px solid #f4d03f'
           }}>
-            <h3 style={{ color: '#f4d03f', marginBottom: '1rem', fontSize: '1.2rem' }}>
+            <h3 style={{ color: '#f4d03f', marginBottom: '0.5rem', fontSize: '1.2rem' }}>
               {team.name}
             </h3>
+            {team.bar && (
+              <p style={{
+                color: '#f7dc6f',
+                fontSize: '0.9rem',
+                marginBottom: '1rem',
+                fontStyle: 'italic'
+              }}>
+                Hometown Bar: {team.bar}
+              </p>
+            )}
             <ul style={{ listStyle: 'none' }}>
               {team.players.map((player, playerIndex) => (
                 <li key={playerIndex} style={{
