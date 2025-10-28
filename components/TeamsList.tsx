@@ -1,12 +1,29 @@
 import fs from 'fs'
 import path from 'path'
 
-function parseMarkdownTeams(content: string) {
+interface Team {
+  name: string
+  bar?: string
+  colors?: string[]
+  players: string[]
+}
+
+function parseMarkdownTeams(content: string): Team[] {
   const lines = content.split('\n')
-  const teams: { name: string; bar?: string; players: string[] }[] = []
-  let currentTeam: { name: string; bar?: string; players: string[] } | null = null
+  const teams: Team[] = []
+  let currentTeam: Team | null = null
+  let inFreeAgentsSection = false
 
   for (const line of lines) {
+    // Stop parsing when we hit the Free Agents section
+    if (line.startsWith('# Free Agents')) {
+      inFreeAgentsSection = true
+      if (currentTeam) {
+        teams.push(currentTeam)
+      }
+      break
+    }
+
     if (line.startsWith('## ')) {
       if (currentTeam) {
         teams.push(currentTeam)
@@ -17,12 +34,15 @@ function parseMarkdownTeams(content: string) {
       }
     } else if (line.startsWith('**Hometown Bar:**') && currentTeam) {
       currentTeam.bar = line.replace('**Hometown Bar:**', '').trim()
+    } else if (line.startsWith('**Team Colors:**') && currentTeam) {
+      const colorsStr = line.replace('**Team Colors:**', '').trim()
+      currentTeam.colors = colorsStr.split(',').map(c => c.trim())
     } else if (line.startsWith('- ') && currentTeam) {
       currentTeam.players.push(line.replace('- ', ''))
     }
   }
 
-  if (currentTeam) {
+  if (currentTeam && !inFreeAgentsSection) {
     teams.push(currentTeam)
   }
 
@@ -30,7 +50,7 @@ function parseMarkdownTeams(content: string) {
 }
 
 export default function TeamsList() {
-  let teams: { name: string; bar?: string; players: string[] }[] = []
+  let teams: Team[] = []
 
   try {
     const filePath = path.join(process.cwd(), 'teams.md')
@@ -58,11 +78,29 @@ export default function TeamsList() {
               <p style={{
                 color: '#001f3f',
                 fontSize: '0.9rem',
-                marginBottom: '1rem',
+                marginBottom: '0.5rem',
                 fontStyle: 'italic'
               }}>
                 🍺 {team.bar}
               </p>
+            )}
+            {team.colors && team.colors.length > 0 && (
+              <div style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                <span style={{ fontSize: '0.9rem', color: '#001f3f', fontWeight: 'bold' }}>Team Colors:</span>
+                {team.colors.map((color, colorIndex) => (
+                  <div
+                    key={colorIndex}
+                    style={{
+                      width: '30px',
+                      height: '30px',
+                      backgroundColor: color,
+                      borderRadius: '4px',
+                      border: '2px solid #001f3f'
+                    }}
+                    title={color}
+                  />
+                ))}
+              </div>
             )}
             <ul style={{ listStyle: 'none' }}>
               {team.players.map((player, playerIndex) => (

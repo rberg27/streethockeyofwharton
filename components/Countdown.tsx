@@ -38,7 +38,7 @@ export default function Countdown() {
   return (
     <div className="countdown-container">
       <h1 className="section-heading">
-        COUNTDOWN TO<br />SHOW TIME
+        COUNTDOWN TO<br />"SHOW" TIME
       </h1>
       <div className="countdown">
         <div className="time-unit">

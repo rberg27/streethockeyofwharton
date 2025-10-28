@@ -1,9 +1,12 @@
 import Countdown from '@/components/Countdown'
 import EventDetails from '@/components/EventDetails'
 import PartifulLink from '@/components/PartifulLink'
+import GearOrder from '@/components/GearOrder'
+import WhatIsStreetHockey from '@/components/WhatIsStreetHockey'
 import TeamsList from '@/components/TeamsList'
 import FreeAgents from '@/components/FreeAgents'
 import PowerRankings from '@/components/PowerRankings'
+import FAQ from '@/components/FAQ'
 
 export default function Home() {
   return (
@@ -25,11 +28,14 @@ export default function Home() {
 
       <main>
         <Countdown />
+        <WhatIsStreetHockey />
         <EventDetails />
         <PartifulLink />
+        <GearOrder />
         <TeamsList />
         <FreeAgents />
         <PowerRankings />
+        <FAQ />
       </main>
     </div>
   )

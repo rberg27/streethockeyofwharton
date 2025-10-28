@@ -1,8 +1,17 @@
 export default function PartifulLink() {
   return (
     <div className="section">
-      <h2 className="section-heading">JOIN THE PARTY!</h2>
+      <h2 className="section-heading">
+        JOIN THE QUEST FOR<br />THE QUAKER QUP
+      </h2>
       <div style={{ textAlign: 'center' }}>
+        <div style={{ marginBottom: '1.5rem' }}>
+          <img
+            src="/The Quaker Qup.png"
+            alt="The Quaker Cup"
+            style={{ maxWidth: '100%', height: 'auto', maxHeight: '300px' }}
+          />
+        </div>
         <a
           href="https://partiful.com/e/eljhHV3tVfUweZ0sEcCN"
           className="partiful-link"
@@ -11,9 +20,6 @@ export default function PartifulLink() {
         >
           🎉 RSVP on Partiful
         </a>
-        <p style={{ marginTop: '1rem', fontSize: '0.9rem', color: '#666' }}>
-          Click to join the official playoff party event
-        </p>
       </div>
     </div>
   )
