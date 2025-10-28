@@ -64,7 +64,7 @@ export default function FAQ() {
                     href={faq.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    style={{ color: '#ae000f', textDecoration: 'underline' }}
+                    style={{ color: '#ae000f', textDecoration: 'underline', wordBreak: 'break-all' }}
                   >
                     {faq.link}
                   </a>
