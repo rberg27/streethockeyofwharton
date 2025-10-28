@@ -1,23 +1,24 @@
 # Street Hockey Teams
 
-## Team 1
-**Hometown Bar:** Lucy's
+## Drinker's Street Hockey Club
+**Hometown Bar:** Drinker's
 - Adam Sudit
 - Ananya Chandra
 
 
-## Team 2
-**Hometown Bar:** Bonner's
+## Bonner's Pub Street Hockey Club
+**Hometown Bar:** Bonner's Pub
 - Benji Flacks
 - Yash Bhatnagar
 - Joel Revo
 
-## Team 3
+## Ladder 15 Street Hockey Club
 **Hometown Bar:** Ladder 15
 - Herman Chandi
 - Alec Rosen
 
-## Team 4
+## Black Sheep Street Hockey Club
 **Hometown Bar:** Black Sheep
 - Shruthi Krishnan
 - Stephen Kennefick
+- Tiffany Chiang
