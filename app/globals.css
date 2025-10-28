@@ -38,11 +38,11 @@ body {
 }
 
 .countdown-container {
-  background: #990000;
+  background: #fff;
   border-radius: 15px;
   padding: 2rem;
   margin-bottom: 2rem;
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
@@ -57,47 +57,55 @@ body {
 
 .time-unit {
   text-align: center;
-  background: rgba(31, 63, 152, 0.4);
+  background: #001f3f;
   border-radius: 10px;
   padding: 1rem;
   min-width: 100px;
-  border: 1px solid rgba(244, 208, 63, 0.2);
+  border: 1px solid rgba(153, 0, 0, 0.3);
 }
 
 .time-value {
   font-size: 2.5rem;
   font-weight: bold;
   display: block;
-  color: #f4d03f;
+  color: #FFD700;
 }
 
 .time-label {
   font-size: 0.9rem;
-  color: #ccc;
+  color: #fff;
   text-transform: uppercase;
 }
 
 .event-details {
-  background: #990000;
+  background: #fff;
   border-radius: 15px;
   padding: 2rem;
   margin-bottom: 2rem;
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .section {
-  background: #990000;
+  background: #fff;
   border-radius: 15px;
   padding: 2rem;
   margin-bottom: 2rem;
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .section h2 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  color: #f4d03f;
+  color: #ae000f;
   text-align: center;
+}
+
+.section-heading {
+  font-size: 2.0rem !important;
+  font-weight: bold;
+  color: #ae000f;
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
 
 .partiful-link {
@@ -127,13 +135,13 @@ body {
   margin-bottom: 0.5rem;
   padding: 1rem;
   border-radius: 8px;
-  border-left: 4px solid #f4d03f;
+  border-left: 4px solid #ae000f;
 }
 
 .power-rankings table {
   width: 100%;
   border-collapse: collapse;
-  background: rgba(31, 63, 152, 0.3);
+  background: #f8f8f8;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -142,12 +150,13 @@ body {
 .power-rankings td {
   padding: 1rem;
   text-align: left;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  color: #001f3f;
 }
 
 .power-rankings th {
-  background: rgba(153, 0, 0, 0.4);
-  color: #f4d03f;
+  background: #ae000f;
+  color: #fff;
   font-weight: bold;
 }
 

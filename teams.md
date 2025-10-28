@@ -1,6 +1,6 @@
 # Street Hockey Teams
 
-## Drinker's Street Hockey Club
+## Drinker's Pub Street Hockey Club
 **Hometown Bar:** Drinker's
 - Adam Sudit
 - Ananya Chandra
@@ -15,10 +15,17 @@
 ## Ladder 15 Street Hockey Club
 **Hometown Bar:** Ladder 15
 - Herman Chandi
-- Alec Rosen
+- Alec Roslin
 
 ## Black Sheep Street Hockey Club
 **Hometown Bar:** Black Sheep
-- Shruthi Krishnan
+- Shruthi K
 - Stephen Kennefick
-- Tiffany Chiang
+- Tiffany (Cheer Squad)
+
+# Free Agents
+
+## Available Players
+- Amanda Freedman
+- Niv
+- Ryan Bergamini

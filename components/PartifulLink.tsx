@@ -1,7 +1,7 @@
 export default function PartifulLink() {
   return (
     <div className="section">
-      <h2>Join the Party!</h2>
+      <h2 className="section-heading">JOIN THE PARTY!</h2>
       <div style={{ textAlign: 'center' }}>
         <a
           href="https://partiful.com/e/eljhHV3tVfUweZ0sEcCN"
@@ -11,7 +11,7 @@ export default function PartifulLink() {
         >
           🎉 RSVP on Partiful
         </a>
-        <p style={{ marginTop: '1rem', fontSize: '0.9rem', color: '#ccc' }}>
+        <p style={{ marginTop: '1rem', fontSize: '0.9rem', color: '#666' }}>
           Click to join the official playoff party event
         </p>
       </div>

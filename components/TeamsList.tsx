@@ -42,34 +42,34 @@ export default function TeamsList() {
 
   return (
     <div className="section">
-      <h2>Teams</h2>
+      <h2 className="section-heading">TEAMS</h2>
       <div style={{ display: 'grid', gap: '1rem', gridTemplateColumns: 'repeat(2, 1fr)' }}>
         {teams.map((team, index) => (
           <div key={index} style={{
-            background: 'rgba(31, 63, 152, 0.3)',
+            background: '#f8f8f8',
             padding: '1.5rem',
             borderRadius: '8px',
-            borderLeft: '4px solid #f4d03f'
+            borderLeft: '4px solid #ae000f'
           }}>
-            <h3 style={{ color: '#f4d03f', marginBottom: '0.5rem', fontSize: '1.2rem' }}>
+            <h3 style={{ color: '#ae000f', marginBottom: '0.5rem', fontSize: '1.2rem', fontWeight: 'bold' }}>
               {team.name}
             </h3>
             {team.bar && (
               <p style={{
-                color: '#f7dc6f',
+                color: '#001f3f',
                 fontSize: '0.9rem',
                 marginBottom: '1rem',
                 fontStyle: 'italic'
               }}>
-                Hometown Bar: {team.bar}
+                🍺 {team.bar}
               </p>
             )}
             <ul style={{ listStyle: 'none' }}>
               {team.players.map((player, playerIndex) => (
                 <li key={playerIndex} style={{
                   padding: '0.3rem 0',
-                  borderBottom: '1px solid rgba(255, 255, 255, 0.1)',
-                  color: '#fff'
+                  borderBottom: '1px solid rgba(0, 0, 0, 0.1)',
+                  color: '#001f3f'
                 }}>
                   {player}
                 </li>
