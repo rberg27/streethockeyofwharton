@@ -5,8 +5,8 @@ import { Dancing_Script } from 'next/font/google'
 const dancingScript = Dancing_Script({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Street Hockey of Wharton',
-  description: 'Countdown to Playoff Season',
+  title: 'Street Hockey Of Wharton',
+  description: 'Countdown to Street Hockey Night in America',
 }
 
 export default function RootLayout({
