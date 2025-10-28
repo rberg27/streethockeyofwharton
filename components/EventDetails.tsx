@@ -33,7 +33,7 @@ export default function EventDetails() {
             9:15 PM - Motivational Speeches
           </h3>
           <p style={{ fontSize: '1rem', color: '#001f3f', marginBottom: '0.5rem' }}>
-            📍 Team Captains at Each Bar
+            📍 Team Captains at their Hometown Bar
           </p>
           <p style={{ fontSize: '0.9rem' }}>
             <a
@@ -81,7 +81,7 @@ export default function EventDetails() {
             12:00 AM - Post-Game Post-Game
           </h3>
           <p style={{ fontSize: '1rem', color: '#001f3f' }}>
-            📍 Winning Team's Bar
+            📍 All Teams at the Winning Team's Bar
           </p>
         </div>
       </div>

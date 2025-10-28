@@ -4,13 +4,10 @@ export default function GearOrder() {
       <h2 className="section-heading">GEAR ORDER</h2>
       <div style={{ textAlign: 'center' }}>
         <p style={{ marginBottom: '1.5rem', fontSize: '1.1rem', color: '#001f3f' }}>
-          Get your official Wharton Mildmen Street Hockey Club gear
-        </p>
-        <p style={{ marginBottom: '1.5rem', fontSize: '1.1rem', color: '#001f3f' }}>
           $25 Hats, $60 Vests. 
         </p>
         <p style={{ marginBottom: '1.5rem', fontSize: '1.1rem', color: '#001f3f' }}>
-          All proceeds go towards keeping the Street Hockey accessible! 
+          All proceeds go towards keeping the SHOW as free as possible! 
         </p>
         
         <a
