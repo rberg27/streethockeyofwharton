@@ -57,7 +57,7 @@ export default function EventDetails() {
             10:00 PM - The Game
           </h3>
           <p style={{ fontSize: '1rem', color: '#001f3f', marginBottom: '0.3rem' }}>
-            📍 Hutchinson Gymnasium
+            📍 A 4-Team Playoff at Hutchinson Gymnasium
           </p>
           <p style={{ fontSize: '0.9rem', color: '#001f3f' }}>
             <a
