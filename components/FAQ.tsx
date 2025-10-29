@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function FAQ() {
   const faqs = [
     {
@@ -73,6 +75,15 @@ export default function FAQ() {
             </p>
           </div>
         ))}
+        <div style={{ textAlign: 'center', marginTop: '2rem' }}>
+          <Image
+            src="/Keeper of The Qup.png"
+            alt="Keeper of The Qup"
+            width={400}
+            height={533}
+            style={{ borderRadius: '8px', maxWidth: '100%', height: 'auto' }}
+          />
+        </div>
       </div>
     </div>
   )
