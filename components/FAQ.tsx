@@ -25,7 +25,7 @@ export default function FAQ() {
     },
     {
       question: "Who should I contact if I have more questions?",
-      answer: "The Keeper of the Qup (Ryan Bergamini - rmb1@wharton.upenn.edu)"
+      answer: "The Qeeper of the Qup (Ryan Bergamini - rmb1@wharton.upenn.edu)"
     }
   ]
 
@@ -78,7 +78,7 @@ export default function FAQ() {
         <div style={{ textAlign: 'center', marginTop: '2rem' }}>
           <Image
             src="/Keeper of The Qup.png"
-            alt="Keeper of The Qup"
+            alt="Qeeper of The Qup"
             width={400}
             height={533}
             style={{ borderRadius: '8px', maxWidth: '100%', height: 'auto' }}
