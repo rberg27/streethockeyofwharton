@@ -13,6 +13,7 @@
 - Benji Flacks
 - Yash Bhatnagar
 - Joel Revo
+- Mitchell Moos
 
 ## Ladder 15 Street Hockey Club
 **Hometown Bar:** Ladder 15
