@@ -4,7 +4,8 @@
 **Hometown Bar:** Drinker's
 **Team Colors:** Blue
 - Adam Sudit
-- Ananya Chandra
+- Ananya Chandra (GM)
+- Amanda Freedman
 
 
 ## Bonner's Pub Street Hockey Club
@@ -32,4 +33,3 @@
 
 # Free Agents
 - Niv
-- Amanda Freedman
