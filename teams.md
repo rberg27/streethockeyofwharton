@@ -1,10 +1,10 @@
 # Street Hockey Teams
 
-## Drinker's Pub Street Hockey Club
-**Hometown Bar:** Drinker's
+## Lucy's Street Hockey Club
+**Hometown Bar:** Lucy's
 **Team Colors:** Blue
 - Adam Sudit
-- Ananya Chandra (GM)
+- Ananya Chandra (Hooray)
 - Amanda Freedman
 
 
@@ -27,9 +27,10 @@
 **Team Colors:** Black
 - Shruthi K
 - Stephen Kennefick
-- Tiffany (Cheer Squad)
+- Tiffany (Hooray)
 - Bobby Ma
 
 
 # Free Agents
 - Niv
+- David Zhang (Hooray)

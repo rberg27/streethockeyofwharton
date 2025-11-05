@@ -2,32 +2,33 @@ export default function PowerRankings() {
   const rankings = [
     {
       rank: 1,
-      team: "Bonner's Pub Street Hockey Club",
-      change: "same",
-      changeValue: "±0",
-      reason: "First Free Agent signing of Joel Revo - by definition best in the history of the SHOW."
+      team: "Lucy's Pub Street Hockey Club",
+      change: "up",
+      changeValue: "+1",
+      reason: "Drinker's -> Lucy's is an upgrade."
     },
     {
       rank: 2,
-      team: "Drinker's Pub Street Hockey Club",
-      change: "same",
-      changeValue: "±0",
-      reason: "2nd in the rankings like how HCM is the 2nd best cohort at Wharton."
+      team: "Black Sheep Pub Street Hockey Club",
+      change: "up",
+      changeValue: "+2",
+      reason: "League leader in recruits. As the recruits grow, so does their power."
     },
     {
       rank: 3,
-      team: "Ladders 15 Street Hockey Club",
-      change: "same",
-      changeValue: "±0",
-      reason: "Herman is Canadian - that counts for something!"
+      team: "Bonner's Pub Street Hockey Club",
+      change: "down",
+      changeValue: "-2",
+      reason: " "
     },
     {
       rank: 4,
-      team: "Black Sheep Street Hockey Club",
-      change: "same",
-      changeValue: "±0",
-      reason: "Stephen Kennefik is a wild card - still unknown if Capt Shruthi can keep him on track."
-    }
+      team: "Ladders 15 Street Hockey Club",
+      change: "down",
+      changeValue: "-1",
+      reason: "Still recovering from Game 7."
+    },
+    
   ]
 
   const getChangeClass = (change: string) => {
