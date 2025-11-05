@@ -7,6 +7,9 @@ const dancingScript = Dancing_Script({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Street Hockey Of Wharton',
   description: 'Countdown to Street Hockey Night in America',
+  icons: {
+    icon: '/quaker qup logo.png',
+  },
 }
 
 export default function RootLayout({
