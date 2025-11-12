@@ -6,6 +6,11 @@
 - Adam Sudit
 - Ananya Chandra (Hooray)
 - Amanda Freedman
+- Ella Ri
+- Janna Jiang (Hooray)
+- Jad (Hooray)
+- Surbhi (Hooray)
+- David Zhang (Hooray)
 
 
 ## Bonner's Pub Street Hockey Club
@@ -16,11 +21,15 @@
 - Joel Revo
 - Mitchell Moos
 
+
 ## Ladder 15 Street Hockey Club
 **Hometown Bar:** Ladder 15
 **Team Colors:** Red
 - Herman Chandi
 - Alec Roslin
+- Ariana (Hooray)
+- Niv
+
 
 ## Black Sheep Street Hockey Club
 **Hometown Bar:** Black Sheep
@@ -29,8 +38,4 @@
 - Stephen Kennefick
 - Tiffany (Hooray)
 - Bobby Ma
-
-
-# Free Agents
-- Niv
-- David Zhang (Hooray)
+- Rutwik Shah
