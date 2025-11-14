@@ -19,7 +19,7 @@ export default function EventDetails() {
             📍 Each Team at their Hometown Bar
           </p>
           <p style={{ fontSize: '0.9rem', color: '#666', marginTop: '0.3rem' }}>
-            (Drinker's, Bonner's, Ladder 15, Black Sheep)
+            (Lucy's, Bonner's, Ladder 15, Black Sheep)
           </p>
         </div>
 
