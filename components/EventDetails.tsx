@@ -13,7 +13,7 @@ export default function EventDetails() {
             fontWeight: 'bold',
             color: '#ae000f'
           }}>
-            8:15 PM - Pre-Game Pre-Game
+            8:00 PM - Pre-Game Pre-Game
           </h3>
           <p style={{ fontSize: '1rem', color: '#001f3f' }}>
             📍 Each Team at their Hometown Bar
