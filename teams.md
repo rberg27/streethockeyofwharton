@@ -11,6 +11,10 @@
 - Jad (Hooray)
 - Surbhi (Hooray)
 - David Zhang (Hooray)
+- Tara Menon (Hooray)
+- Faraaz (Hooray)
+- Parm (Hooray)
+
 
 
 ## Bonner's Pub Street Hockey Club
@@ -20,6 +24,11 @@
 - Yash Bhatnagar
 - Joel Revo
 - Mitchell Moos
+- Cam Casey
+- Adrienne Travis (Hooray)
+- Darsha
+- Tanner Muz
+- Madeleine Zhou (Hooray)
 
 
 ## Ladder 15 Street Hockey Club
@@ -29,6 +38,13 @@
 - Alec Roslin
 - Ariana (Hooray)
 - Niv
+- Donaven Tennyson
+- Saffi (Hooray)
+- Sanj (Hooray)
+- Thomas Kiel (Hooray)
+- Brennan Stokes (Hooray)
+- Ishita Date (Hooray)
+- Rushi Patel (Front Office Staff) (Hooray)
 
 
 ## Black Sheep Street Hockey Club
@@ -39,3 +55,12 @@
 - Tiffany (Hooray)
 - Bobby Ma
 - Rutwik Shah
+- Tomer Gottlieb
+- Erin Angell (Hooray)
+- Saïd Zanati (Hooray)
+- Isabelle Burq
+- Manan Sharma
+- Andrew Xue (Hooray)
+
+
+
