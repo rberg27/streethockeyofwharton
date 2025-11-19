@@ -11,9 +11,9 @@
 - Jad (Hooray)
 - Surbhi (Hooray)
 - David Zhang (Hooray)
-- Tara Menon (Hooray)
 - Faraaz (Hooray)
-- Parm (Hooray)
+- Rishika Ranka
+- Ellie Stoffel (Hooray)
 
 
 
@@ -24,11 +24,13 @@
 - Yash Bhatnagar
 - Joel Revo
 - Mitchell Moos
-- Cam Casey
 - Adrienne Travis (Hooray)
-- Darsha
 - Tanner Muz
 - Madeleine Zhou (Hooray)
+- Ryan Winick
+- Sonya Huang
+- Cam Casey
+- Darsha
 
 
 ## Ladder 15 Street Hockey Club

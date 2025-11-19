@@ -28,12 +28,12 @@ export default function Home() {
 
       <main>
         <Countdown />
-        <WhatIsStreetHockey />
         <EventDetails />
+        <TeamsList />
         <PartifulLink />
         <GearOrder />
-        <TeamsList />
         <FreeAgents />
+        <WhatIsStreetHockey />
         <PowerRankings />
         <FAQ />
       </main>
