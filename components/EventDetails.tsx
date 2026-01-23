@@ -1,9 +1,9 @@
 export default function EventDetails() {
   return (
     <div className="event-details">
-      <h2 className="section-heading">RUN OF SHOW</h2>
+      <h2 className="section-heading">NEXT EVENT</h2>
       <p style={{ textAlign: 'center', fontSize: '1.2rem', fontWeight: 'bold', color: '#001f3f', marginBottom: '1.5rem' }}>
-        DATE: WEDNESDAY NOVEMBER 19TH, 2025
+        DATE & TIME: TBD
       </p>
       <div style={{ maxWidth: '600px', margin: '0 auto' }}>
         <div style={{ marginBottom: '1.5rem', paddingBottom: '1rem', borderBottom: '1px solid rgba(0, 0, 0, 0.1)' }}>
@@ -13,7 +13,7 @@ export default function EventDetails() {
             fontWeight: 'bold',
             color: '#ae000f'
           }}>
-            8:00 PM - Pre-Game Pre-Game
+            Pre-Game Pre-Game
           </h3>
           <p style={{ fontSize: '1rem', color: '#001f3f' }}>
             📍 Each Team at their Hometown Bar
@@ -30,7 +30,7 @@ export default function EventDetails() {
             fontWeight: 'bold',
             color: '#ae000f'
           }}>
-            9:15 PM - Motivational Speeches
+            Motivational Speeches
           </h3>
           <p style={{ fontSize: '1rem', color: '#001f3f', marginBottom: '0.5rem' }}>
             📍 Team Captains at their Hometown Bar
@@ -54,7 +54,7 @@ export default function EventDetails() {
             fontWeight: 'bold',
             color: '#ae000f'
           }}>
-            10:00 PM - The Game
+            The Game
           </h3>
           <p style={{ fontSize: '1rem', color: '#001f3f', marginBottom: '0.3rem' }}>
             📍 A 4-Team Playoff at Hutchinson Gymnasium
@@ -78,7 +78,7 @@ export default function EventDetails() {
             fontWeight: 'bold',
             color: '#ae000f'
           }}>
-            12:00 AM - Post-Game Post-Game
+            Post-Game Post-Game
           </h3>
           <p style={{ fontSize: '1rem', color: '#001f3f' }}>
             📍 All Teams at the Winning Team's Bar

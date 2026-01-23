@@ -3,11 +3,15 @@ import Image from 'next/image'
 export default function FAQ() {
   const faqs = [
     {
+      question: "When is the next Street Hockey Night in America?",
+      answer: "The date for the next tournament is TBD. Sign up for updates above to be the first to know!"
+    },
+    {
       question: "Can I play if I play in the Wharton Wildmen (WHL)?",
       answer: "Absolutely! Street Hockey Night in America is for everyone - not to mention a great time to showcase your stick skills."
     },
     {
-      question: "If I play is it a recurring commitment?",
+      question: "Is this a recurring commitment?",
       answer: "Absolutely not! The only mandatory time commitment is the time you spend bragging about your team. Come as you are, bring what you can."
     },
     {
@@ -15,8 +19,8 @@ export default function FAQ() {
       answer: "Wear the color of your team and sneakers. Bring your A-game (or ___-game if you're from Wharton) and a positive attitude. We provide all the equipment (sticks, balls, goals)."
     },
     {
-      question: "I've never played hockey before. Will I embarrass myself?",
-      answer: "Impossible! Half our players have never held a stick before their first game. You'll fit right in."
+      question: "I've never played hockey before. Can I still play?",
+      answer: "Absolutely! Half our players have never held a stick before their first game. You'll fit right in."
     },
     {
       question: "How do I stay in the loop for all things Street Hockey Of Wharton?",
