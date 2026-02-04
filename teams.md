@@ -4,17 +4,12 @@
 **Hometown Bar:** Lucy's
 **Team Colors:** Blue
 - Adam Sudit
-- Ananya Chandra (Hooray)
+- Ananya Chandra
 - Amanda Freedman
 - Ella Ri
-- Janna Jiang (Hooray)
-- Jad (Hooray)
-- Surbhi (Hooray)
-- David Zhang (Hooray)
-- Faraaz (Hooray)
-- Rishika Ranka
-- Ellie Stoffel (Hooray)
-
+- Janna Jiang
+- Jad
+- David Zhang
 
 
 ## Bonner's Pub Street Hockey Club
@@ -23,46 +18,34 @@
 - Benji Flacks
 - Yash Bhatnagar
 - Joel Revo
-- Mitchell Moos
-- Adrienne Travis (Hooray)
-- Tanner Muz
-- Madeleine Zhou (Hooray)
-- Ryan Winick
+- Adrienne Travis
+- Ryan Winnick
 - Sonya Huang
-- Cam Casey
-- Darsha
+- Matthew Lewis
+- Isabelle Burq
+- Vaibhav Gupta
+- Sophia Metzger
 
 
-## Ladder 15 Street Hockey Club
+## Ladders Street Hockey Club
 **Hometown Bar:** Ladder 15
 **Team Colors:** Red
 - Herman Chandi
-- Alec Roslin
-- Ariana (Hooray)
-- Niv
-- Donaven Tennyson
-- Saffi (Hooray)
-- Sanj (Hooray)
-- Thomas Kiel (Hooray)
-- Brennan Stokes (Hooray)
-- Ishita Date (Hooray)
-- Rushi Patel (Front Office Staff) (Hooray)
+- Sanj
+- Ariana Katsanis
 
 
-## Black Sheep Street Hockey Club
-**Hometown Bar:** Black Sheep
+## The Goat Street Hockey Club
+**Hometown Bar:** The Goat
 **Team Colors:** Black
-- Shruthi K
+- Shruthi Krishnan
 - Stephen Kennefick
-- Tiffany (Hooray)
 - Bobby Ma
 - Rutwik Shah
 - Tomer Gottlieb
-- Erin Angell (Hooray)
-- Saïd Zanati (Hooray)
-- Isabelle Burq
-- Manan Sharma
-- Andrew Xue (Hooray)
-
+- Lakshmi Jayakumar
+- Esteban Sanchez
+- Mor Gottlieb
+- Daniel Libermann
 
 

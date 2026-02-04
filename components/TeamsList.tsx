@@ -8,6 +8,13 @@ interface Team {
   players: string[]
 }
 
+const TEAM_PHOTOS: Record<string, string> = {
+  "Lucy's Street Hockey Club": "/Lucy's Street Hockey Club.png",
+  "Bonner's Pub Street Hockey Club": "/Bonners Street Hockey Club.png",
+  "Ladders Street Hockey Club": "/Ladders Street Hockey Club.png",
+  "The Goat Street Hockey Club": "/The Goat Street Hockey Club.png"
+}
+
 function parseMarkdownTeams(content: string): Team[] {
   const lines = content.split('\n')
   const teams: Team[] = []
@@ -71,6 +78,20 @@ export default function TeamsList() {
             borderRadius: '8px',
             borderLeft: '4px solid #ae000f'
           }}>
+            {TEAM_PHOTOS[team.name] && (
+              <div style={{ marginBottom: '1rem', textAlign: 'center' }}>
+                <img
+                  src={TEAM_PHOTOS[team.name]}
+                  alt={team.name}
+                  style={{
+                    maxWidth: '100%',
+                    height: 'auto',
+                    maxHeight: '150px',
+                    borderRadius: '8px'
+                  }}
+                />
+              </div>
+            )}
             <h3 style={{ color: '#ae000f', marginBottom: '0.5rem', fontSize: '1.2rem', fontWeight: 'bold' }}>
               {team.name}
             </h3>
@@ -81,7 +102,7 @@ export default function TeamsList() {
                 marginBottom: '0.5rem',
                 fontStyle: 'italic'
               }}>
-                🍺 {team.bar}
+                {team.bar}
               </p>
             )}
             {team.colors && team.colors.length > 0 && (

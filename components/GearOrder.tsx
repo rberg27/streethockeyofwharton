@@ -14,7 +14,7 @@ export default function GearOrder() {
           $15 Hats
         </p>
         <p style={{ marginBottom: '1.5rem', fontSize: '1.1rem', color: '#001f3f' }}>
-          All proceeds go towards keeping the SHOW as free as possible!
+          Ever wish you bought Apple at $15 a share? Now's your chance.
         </p>
 
         <a

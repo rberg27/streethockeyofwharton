@@ -1,10 +1,8 @@
-import Image from 'next/image'
-
 export default function FAQ() {
   const faqs = [
     {
       question: "When is the next Street Hockey Night in America?",
-      answer: "The date for the next tournament is TBD. Sign up for updates above to be the first to know!"
+      answer: "Saturday, February 28th! See the schedule above for full details."
     },
     {
       question: "Can I play if I play in the Wharton Wildmen (WHL)?",
@@ -24,8 +22,8 @@ export default function FAQ() {
     },
     {
       question: "How do I stay in the loop for all things Street Hockey Of Wharton?",
-      answer: "Join the Wharton Mildmen WhatsApp Group",
-      link: "https://chat.whatsapp.com/GddBQzPvItfJYh7IYm2t7X"
+      answer: "Follow us on Instagram",
+      link: "https://www.instagram.com/the_wharton_mildmen"
     },
     {
       question: "Who should I contact if I have more questions?",
@@ -79,15 +77,6 @@ export default function FAQ() {
             </p>
           </div>
         ))}
-        <div style={{ textAlign: 'center', marginTop: '2rem' }}>
-          <Image
-            src="/Keeper of The Qup.png"
-            alt="Qeeper of The Qup"
-            width={400}
-            height={533}
-            style={{ borderRadius: '8px', maxWidth: '100%', height: 'auto' }}
-          />
-        </div>
       </div>
     </div>
   )

@@ -5,6 +5,9 @@ import WhatIsStreetHockey from '@/components/WhatIsStreetHockey'
 import TeamsList from '@/components/TeamsList'
 import QupQount from '@/components/QupQount'
 import FAQ from '@/components/FAQ'
+import SignupForm from '@/components/SignupForm'
+import TeamSignupCount from '@/components/TeamSignupCount'
+import Highlights from '@/components/Highlights'
 
 export default function Home() {
   return (
@@ -42,12 +45,15 @@ export default function Home() {
       </header>
 
       <main>
-        <QupQount />
-        <EventDetails />
-        <TeamsList />
-        <PartifulLink />
         <GearOrder />
         <WhatIsStreetHockey />
+        <Highlights />
+        <TeamsList />
+        <TeamSignupCount />
+        <QupQount />
+        <SignupForm />
+        <EventDetails />
+        <PartifulLink />
         <FAQ />
       </main>
     </div>

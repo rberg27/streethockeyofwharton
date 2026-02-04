@@ -1,70 +1,68 @@
 export default function QupQount() {
   const teams = [
-    {
-      name: "Black Sheep Pub Street Hockey Club",
-      wins: 1,
-      bar: "Black Sheep"
-    },
-    {
-      name: "Lucy's Pub Street Hockey Club",
-      wins: 0,
-      bar: "Lucy's"
-    },
-    {
-      name: "Ladder 15 Street Hockey Club",
-      wins: 0,
-      bar: "Ladder 15"
-    },
-    {
-      name: "Bonner's Pub Street Hockey Club",
-      wins: 0,
-      bar: "Bonner's"
-    }
+    { name: "The Goat", wins: 1 },
+    { name: "Lucy's", wins: 0 },
+    { name: "Ladders", wins: 0 },
+    { name: "Bonner's", wins: 0 }
   ]
+
+  const sortedTeams = [...teams].sort((a, b) => b.wins - a.wins)
 
   return (
     <div className="section">
-      <h2 className="section-heading">QUP QOUNT</h2>
-      <div style={{ maxWidth: '800px', margin: '0 auto' }}>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1.5rem' }}>
-          {teams.map((team, index) => (
+      <h2 className="section-heading">QUAKER QUP CHAMPIONSHIPS</h2>
+      <div style={{ maxWidth: '600px', margin: '0 auto' }}>
+        {sortedTeams.map((team, index) => {
+          const rank = index + 1
+
+          return (
             <div
-              key={index}
+              key={team.name}
               style={{
-                background: '#f8f8f8',
-                padding: '1.5rem',
+                display: 'flex',
+                alignItems: 'center',
+                padding: '1rem 1.5rem',
+                marginBottom: '0.75rem',
                 borderRadius: '8px',
-                borderLeft: '4px solid #ae000f',
-                textAlign: 'center'
+                background: '#f8f8f8',
+                borderLeft: '4px solid #ae000f'
               }}
             >
-              <h3 style={{
-                color: '#ae000f',
-                fontSize: '1.2rem',
-                fontWeight: 'bold',
-                marginBottom: '0.5rem'
-              }}>
-                {team.bar}
-              </h3>
               <div style={{
-                fontSize: '3rem',
+                fontSize: '1.5rem',
+                fontWeight: 'bold',
+                color: '#ae000f',
+                marginRight: '1rem',
+                minWidth: '40px',
+                textAlign: 'center'
+              }}>
+                #{rank}
+              </div>
+
+              <div style={{ flex: 1 }}>
+                <div style={{
+                  fontSize: '1.25rem',
+                  fontWeight: 'bold',
+                  color: '#001f3f'
+                }}>
+                  {team.name}
+                </div>
+              </div>
+
+              <div style={{
+                fontSize: '2rem',
                 fontWeight: 'bold',
                 color: '#001f3f',
-                marginBottom: '0.5rem'
+                marginLeft: '1rem'
               }}>
                 {team.wins}
-              </div>
-              <div style={{
-                fontSize: '0.9rem',
-                color: '#666',
-                textTransform: 'uppercase',
-                letterSpacing: '1px'
-              }}>
-                {team.wins === 1 ? 'Win' : 'Wins'}
+                <span style={{ fontSize: '0.9rem', fontWeight: 'normal', color: '#666', marginLeft: '0.25rem' }}>
+                  {team.wins === 1 ? 'win' : 'wins'}
+                </span>
               </div>
             </div>
-          ))}
-        </div>
+          )
+        })}
       </div>
     </div>
   )

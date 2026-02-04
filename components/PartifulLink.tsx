@@ -2,27 +2,26 @@ export default function PartifulLink() {
   return (
     <div className="section">
       <h2 className="section-heading">
-        INTERESTED IN NEXT YEAR?
+        SIGN UP NOW
       </h2>
       <div style={{ textAlign: 'center' }}>
         <div style={{ marginBottom: '1.5rem' }}>
           <img
-            src="/The Quaker Qup.png"
-            alt="The Quaker Cup"
+            src="/Street Hockey Night In America II.jpg"
+            alt="Street Hockey Night In America II"
             style={{ maxWidth: '100%', height: 'auto', maxHeight: '300px' }}
           />
         </div>
         <p style={{ fontSize: '1.1rem', color: '#001f3f', marginBottom: '1.5rem', lineHeight: '1.6' }}>
-          Want to be part of the next Street Hockey Night in America?<br />
-          Sign up to stay in the loop for the next tournament!
+          Back by popular demand. Join the movement on Saturday, February 28th.
         </p>
         <a
-          href="https://forms.gle/w6xAfnqekGy4cvbE8"
+          href="https://partiful.com/e/KhLNHmYBjcz0li0lOxCy"
           className="partiful-link"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Sign Up for Updates
+          RSVP on Partiful
         </a>
       </div>
     </div>

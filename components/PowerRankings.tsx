@@ -9,7 +9,7 @@ export default function PowerRankings() {
     },
     {
       rank: 2,
-      team: "Black Sheep Pub Street Hockey Club",
+      team: "The Goat Pub Street Hockey Club",
       change: "up",
       changeValue: "+2",
       reason: "League leader in recruits. As the recruits grow, so does their power."
