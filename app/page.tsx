@@ -8,6 +8,7 @@ import FAQ from '@/components/FAQ'
 import SignupForm from '@/components/SignupForm'
 import TeamSignupCount from '@/components/TeamSignupCount'
 import Highlights from '@/components/Highlights'
+import JerseyInterest from '@/components/JerseyInterest'
 
 export default function Home() {
   return (
@@ -49,6 +50,7 @@ export default function Home() {
         <WhatIsStreetHockey />
         <Highlights />
         <TeamsList />
+        <JerseyInterest />
         <TeamSignupCount />
         <QupQount />
         <SignupForm />
