@@ -9,7 +9,7 @@ interface Team {
 }
 
 const TEAM_PHOTOS: Record<string, string> = {
-  "Lucy's Street Hockey Club": "/Lucy's Street Hockey Club.png",
+  "Lucy's Street Hockey Club": "/Lucys Street Hockey Club.png",
   "Bonner's Pub Street Hockey Club": "/Bonners Street Hockey Club.png",
   "Ladders Street Hockey Club": "/Ladders Street Hockey Club.png",
   "The Goat Street Hockey Club": "/The Goat Street Hockey Club.png"
