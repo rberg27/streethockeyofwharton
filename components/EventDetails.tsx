@@ -13,19 +13,19 @@ export default function EventDetails() {
             fontWeight: 'bold',
             color: '#ae000f'
           }}>
-            5:30 PM — Pre-Game Pre-Game
+            6:00 PM — Pre-Game Pre-Game
           </h3>
           <p style={{ fontSize: '1rem', color: '#001f3f' }}>
-            📍 The Defending Champion's Bar: The Goat
+            📍 Watch WHL take on Penn Law at the Ice Rink
           </p>
           <p style={{ fontSize: '0.9rem' }}>
             <a
-              href="https://www.youtube.com/watch?v=mvTprAb_MaI"
+              href="https://partiful.com/e/jMZcqZxyg0dNIdEOAsbY?c=jLzIckBT&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAQIs21leHRuA2FlbQIxMQBzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAafhuhw6QvLahBOS204as2MhdKqAU7E9Dqu5sEuiy-6Zk4CFW7YlbqEaP-0Y3g_aem_yWy_5sXgUpFAnHyQQKPV_w"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: '#ae000f', textDecoration: 'underline' }}
             >
-              🎬 Expect "Miracle On Ice Speech" level of chills
+              🎟️ RSVP on Partiful
             </a>
           </p>
         </div>
@@ -40,7 +40,7 @@ export default function EventDetails() {
             7:00 PM — The Road To Victory
           </h3>
           <p style={{ fontSize: '1rem', color: '#001f3f' }}>
-            📍 All teams march to the Gym, speaker in tow
+            📍 Head over to Weightman Gym, speaker in tow
           </p>
         </div>
 
