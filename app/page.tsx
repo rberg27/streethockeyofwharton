@@ -51,9 +51,9 @@ export default function Home() {
         <Highlights />
         <TeamsList />
         <JerseyInterest />
-        <TeamSignupCount />
+        {/* <TeamSignupCount /> */}
         <QupQount />
-        <SignupForm />
+        {/* <SignupForm /> */}
         <EventDetails />
         <PartifulLink />
         <FAQ />
